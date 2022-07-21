@@ -25,11 +25,11 @@
 
                      <div class="col-md-5 center-item">
                         <div class="input-group number-spinner">
-                           <button id="caseMinusBtn" class="btn btn-default"><i class="fas fa-minus"></i></button>
-                           <input id="CaseInputText" type="text" class="form-control text-center" value="1">
-                           <button id="caseplusBtn" class="btn btn-default"><i class="fas fa-plus"></i></button>
+                           <button onclick="ItemPriceUpAndDown('PhoneInput', 'PhonePrice', false)" class="btn btn-default"><i class="fas fa-minus"></i></button>
+                           <input id="PhoneInput" type="text" class="form-control text-center" value="1">
+                           <button onclick="ItemPriceUpAndDown('PhoneInput', 'PhonePrice', true)" class="btn btn-default"><i class="fas fa-plus"></i></button>
                         </div>
-                        <h5>$ <span id="Price">1219</span></h5>
+                        <h5>$ <span id="PhonePrice">1219</span></h5>
                         <img src="images/remove.png" alt="" class="remove-item">
                      </div>
                   </div>
@@ -43,12 +43,12 @@
                      </div>
                      <div class="col-md-5 center-item">
                         <div class="input-group number-spinner">
-                           <button id="minusBtnSecond" class="btn btn-default"><i class="fas fa-minus"></i></button>
-                           <input id="CaseInputTextSecond" type="text" class="form-control text-center" value="1">
-                           <button id="plusBtnSecond" class="btn btn-default"><i class="fas fa-plus"></i></button>
+                           <button onclick="ItemPriceUpAndDown('CaseInput', 'PriceCase', false)" class="btn btn-default"><i class="fas fa-minus"></i></button>
+                           <input id="CaseInput" type="text" class="form-control text-center" value="1">
+                           <button onclick="ItemPriceUpAndDown('CaseInput', 'PriceCase', true)" class="btn btn-default"><i class="fas fa-plus"></i></button>
 
                         </div>
-                        <h5>$ <span id="PriceSecond">59</span> </h5>
+                        <h5>$ <span id="PriceCase">59</span> </h5>
                         <img src="images/remove.png" alt="" class="remove-item">
                      </div>
                   </div>
@@ -62,11 +62,11 @@
                         <h5>Tax:</h5>
                         <h5>Total:</h5>
                      </div>
-
+                     
                      <div class="col-md-4 status">
-                        <h5>$1,278</h5>
-                        <h5>$0</h5>
-                        <h5>$1,278</h5>
+                        <h5>$ <span id="subtotaltaka">0000</span></h5>
+                        <h5>$ <span id="texttaka">0</span></h5>
+                        <h5>$ <span id="GreandTotal">0000</span> </h5>
                      </div>
                   </div>
                </div>
